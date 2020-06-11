@@ -1,12 +1,12 @@
 {
-  "name": "TacnaMapCovid",
+  "name": "TacnaCovid",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest",
+    "test": "jest --watch",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "format": "npm run prettier -- --write",
     "validate": "npm run lint && npm run test && npm run prettier -- --list-different",
@@ -45,6 +45,7 @@
     "lint-staged": "^10.1.2",
     "metro-react-native-babel-preset": "^0.58.0",
     "prettier": "^2.0.2",
+    "react-native-testing-library": "^1.13.0",
     "react-test-renderer": "16.11.0",
     "typescript": "^3.8.3"
   },
